@@ -19,7 +19,7 @@ const QuestionDetails = () => {
   const Navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "http://localhost:3000";
+  const url = "https://stackoverflow-clone-f61s.onrender.com";
 
   const { id } = useParams()
   const questionsList = useSelector((state) => state.questionsReducer);
